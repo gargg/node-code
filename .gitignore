@@ -1,0 +1,24 @@
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+
+### Eclipse ###
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.buildpath
+
+# Misc
+target/
+ *.log*
+.gradle/
+build
+buildSrc/out
+.env*
+**/node_modules/**
