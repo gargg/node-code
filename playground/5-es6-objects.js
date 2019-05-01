@@ -29,7 +29,7 @@ console.log(stock)
 console.log(rating) //undefined
 console.log(reviews) //defaults to 5
 
-const transaction = (type, {label, stock}) => {
+const transaction = (type, {label, stock = 0} = {}) => {  //default empty object
     console.log(type, label, stock)
 }
 
